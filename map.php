@@ -80,7 +80,7 @@
 	}
 	
 	function parse_csv() {
-		$arr = csvstring_to_array(file_get_contents('lista-aptek.csv'));
+		$arr = csvstring_to_array(file_get_contents('list.csv'));
 		// echo ltrim($arr[1][0]);
 		 // print_r($arr);
 		
